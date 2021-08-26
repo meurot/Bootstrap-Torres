@@ -19,8 +19,8 @@
   <body>
     <div class="container">
       <div class="row">
-        <h1>Sign Up</h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <h1 class="text-warning">Sign-Up</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -37,37 +37,29 @@
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a
-                    class="nav-link active bg-danger"
+                    class="nav-link active bg-danger text-white"
                     aria-current="page"
                     href="../index.html"
                     >HOME</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link bg-danger"
-                    href="./biography.html"
+                <li class="nav-item bg-danger">
+                  <a class="nav-link text-white" href="./biography.html"
                     >BIOGRAPHY</a
                   >
                 </li>
                 <li class="nav-item bg-danger">
-                  <a class="nav-link" href="./video.html"
-                    >VIDEO</a
-                  >
+                  <a class="nav-link text-white" href="./video.html">VIDEO</a>
                 </li>
                 <li class="nav-item bg-danger">
-                  <a class="nav-link" href="./store.html"
-                    >STORE</a
-                  >
+                  <a class="nav-link text-white" href="./store.html">STORE</a>
                 </li>
                 <li class="nav-item bg-danger">
-                  <a class="nav-link" href="./signup.html"
-                    >SIGNUP</a
-                  >
+                  <a class="nav-link text-white" href="./signup.html">SIGNUP</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle bg-danger"
+                    class="nav-link dropdown-toggle bg-danger text-white"
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -76,10 +68,10 @@
                   >
                     MUSIC
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                     <li>
                       <a
-                        class="dropdown-item bg-success"
+                        class="dropdown-item bg-success text-white"
                         href="https://open.spotify.com/album/5AR3jURU3vmoJiGzpjY4Xn"
                         target="_blank"
                         >SPOTIFY</a
@@ -88,7 +80,7 @@
                     <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a
-                        class="dropdown-item bg-danger"
+                        class="dropdown-item bg-danger text-white"
                         href="https://music.youtube.com/playlist?list=OLAK5uy_m5R2TiUvhe8fm9AoHM094UgWAqKd22DdA"
                         target="_blank"
                         >YOUTUBE MUSIC</a
@@ -97,7 +89,7 @@
                     <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a
-                        class="dropdown-item bg-secondary"
+                        class="dropdown-item bg-secondary text-white"
                         href="https://music.apple.com/us/album/still-on-my-mind/1440916012"
                         target="_blank"
                         >iTUNES</a
@@ -107,7 +99,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle bg-danger"
+                    class="nav-link dropdown-toggle bg-danger text-white"
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -119,7 +111,7 @@
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li>
                       <a
-                        class="dropdown-item bg-danger"
+                        class="dropdown-item bg-danger text-white"
                         href="https://www.instagram.com/dido"
                         target="_blank"
                         >INSTAGRAM</a
@@ -128,7 +120,7 @@
                     <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a
-                        class="dropdown-item bg-primary"
+                        class="dropdown-item bg-primary text-white"
                         href="https://www.facebook.com/dido"
                         target="_blank"
                         >FACEBOOK</a
@@ -137,7 +129,7 @@
                     <li><hr class="dropdown-divider" /></li>
                     <li>
                       <a
-                        class="dropdown-item bg-info"
+                        class="dropdown-item bg-info text-white"
                         href="https://twitter.com/didoofficial?lang=en"
                         target="_blank"
                         >TWITTER</a
@@ -152,10 +144,11 @@
                     class="btn btn-primary"
                     data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
-                  ><span class="badge bg-danger">1</span>
+                  >
+                    <span class="badge bg-danger">1</span>
                     Notice!
                   </button>
-                  <!-- Modal -->
+                  <!-- Start Modal -->
                   <div
                     class="modal fade"
                     id="exampleModal"
@@ -198,18 +191,17 @@
                 </li>
               </ul>
             </div>
-            
           </div>
         </nav>
       </div>
-      <!-- Form -->
+      <!-- Start Form -->
       <fieldset>
-      <legend class="FormTitle">Please complete all fields below</legend>
+      <legend class="FormTitle text-white">Please complete all fields below</legend>
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-lg-5 col-xl-5 xol-xxl-5">
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"
+              <label for="exampleFormControlInput1" class="form-label text-white"
                 >Full Name</label
               >
               <input
@@ -222,7 +214,7 @@
           </div>
           <div class="col-md-5 col-lg-5 col-xl-5 xol-xxl-5">
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"
+              <label for="exampleFormControlInput1" class="form-label text-white"
                 >Email address</label
               >
               <input
@@ -243,7 +235,7 @@
               <option value="Still on My Mind">Still On My Mind</option>
             </select>
           </div>
-          <label for="exampleFormControlInput1" class="form-label">Gender</label>
+          <label for="exampleFormControlInput1" class="form-label text-white">Gender</label>
           <div class="form-check">
             <input
               class="form-check-input"
@@ -251,7 +243,7 @@
               name="flexRadioDefault"
               id="flexRadioDefault1"
             />
-            <label class="form-check-label" for="flexRadioDefault1"> Male </label>
+            <label class="form-check-label text-white" for="flexRadioDefault1"> Male </label>
           </div>
           <div class="form-check">
             <input
@@ -261,7 +253,7 @@
               id="flexRadioDefault2"
               checked
             />
-            <label class="form-check-label" for="flexRadioDefault2">
+            <label class="form-check-label text-white" for="flexRadioDefault2">
               Female
             </label>
           </div>
@@ -273,13 +265,13 @@
               id="flexRadioDefault2"
               checked
             />
-            <label class="form-check-label" for="flexRadioDefault2">
+            <label class="form-check-label text-white" for="flexRadioDefault2">
               Other
             </label>
           </div>
           <div class="col-md-5 col-lg-5 col-xl-5 xol-xxl-5">
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"
+              <label for="exampleFormControlTextarea1" class="form-label text-white"
                 >Feel fre to write</label
               >
               <textarea
@@ -296,7 +288,7 @@
               value=""
               id="flexCheckIndeterminate"
             />
-            <label class="form-check-label" for="flexCheckIndeterminate">
+            <label class="form-check-label text-white" for="flexCheckIndeterminate">
               Subscribe to our newsletter
             </label>
           </div>
@@ -331,7 +323,7 @@
       </div>
         <!-- End Form -->
     </div>
-    <!-- Footer -->
+    <!-- Start Footer -->
     <div class="container">
       <div class="card d-flex">
         <div class="card-footer text-center">

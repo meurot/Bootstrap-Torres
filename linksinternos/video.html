@@ -1,146 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css">
     <title>.:Dido Official Website:.</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    
   </head>
   <body>
-    <div class="grid-container">
-      <div class="header">
-        <!--Comienzo encabezado de mi sitio-->
-        <div>
-          <h1 class="h1home">Video</h1>
-        </div>
-        <div>
-          <nav id="menu">
-            <a href="../index.html">HOME</a>
-            <a href="./biography.html">BIOGRAPHY</a>
-            <a href="./video.html">VIDEO</a>
-            <a href="./store.html">STORE</a>
-            <a href="./signup.html">SIGN UP</a>
-          </nav>
-        </div>
-        <!--Fin encabezado de mi sitio-->
+    <div class="container">
+      <div class="row">
+        <h1 class="text-warning">Video</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active bg-danger text-white"
+                    aria-current="page"
+                    href="../index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item bg-danger">
+                  <a class="nav-link text-white" href="./biography.html"
+                    >BIOGRAPHY</a
+                  >
+                </li>
+                <li class="nav-item bg-danger">
+                  <a class="nav-link text-white" href="./video.html">VIDEO</a>
+                </li>
+                <li class="nav-item bg-danger">
+                  <a class="nav-link text-white" href="./store.html">STORE</a>
+                </li>
+                <li class="nav-item bg-danger">
+                  <a class="nav-link text-white" href="./signup.html">SIGNUP</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle bg-danger text-white"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    MUSIC
+                  </a>
+                  <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                    <li>
+                      <a
+                        class="dropdown-item bg-success text-white"
+                        href="https://open.spotify.com/album/5AR3jURU3vmoJiGzpjY4Xn"
+                        target="_blank"
+                        >SPOTIFY</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item bg-danger text-white"
+                        href="https://music.youtube.com/playlist?list=OLAK5uy_m5R2TiUvhe8fm9AoHM094UgWAqKd22DdA"
+                        target="_blank"
+                        >YOUTUBE MUSIC</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item bg-secondary text-white"
+                        href="https://music.apple.com/us/album/still-on-my-mind/1440916012"
+                        target="_blank"
+                        >iTUNES</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle bg-danger text-white"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    SOCIAL
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a
+                        class="dropdown-item bg-danger text-white"
+                        href="https://www.instagram.com/dido"
+                        target="_blank"
+                        >INSTAGRAM</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item bg-primary text-white"
+                        href="https://www.facebook.com/dido"
+                        target="_blank"
+                        >FACEBOOK</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item bg-info text-white"
+                        href="https://twitter.com/didoofficial?lang=en"
+                        target="_blank"
+                        >TWITTER</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <!-- Button trigger modal -->
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <span class="badge bg-danger">1</span>
+                    Notice!
+                  </button>
+                  <!-- Start Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Notice
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          DUE TO CORONAVIRUS RESTRICTIONS, ALL PREVIOUSLY
+                          ANNOUNCED 2020 DATES HAVE HAD TO BE CANCELLED. PLEASE
+                          CONTACT YOUR TICKET RETAILER FOR INFORMATION ON
+                          REFUNDS.
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-warning"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Modal -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-      <div class="aside">
-        <!--Comienzo barra multimedia de mi sitio-->
-        <a
-          title="Itunes"
-          href="https://music.apple.com/us/album/still-on-my-mind/1440916012"
-          target="_blank"
-          ><img src="../imagenes/itunes.png" alt="Itunes" ; height="44rem" ;
-        /></a>
-        <a
-          title="Spotify"
-          href="https://open.spotify.com/album/5AR3jURU3vmoJiGzpjY4Xn"
-          target="_blank"
-          ><img src="../imagenes/spotify.png" alt="Spotify" ; height="40rem" ;
-        /></a>
-        <a
-          title="Youtube Music"
-          href="https://music.youtube.com/playlist?list=OLAK5uy_m5R2TiUvhe8fm9AoHM094UgWAqKd22DdA"
-          target="_blank"
-          ><img
-            src="../imagenes/Youtube-Music-Logo.jpg"
-            alt="Youtube Music"
-            ;
-            height="40rem"
-        /></a>
-        <a
-          title="Twitter"
-          href="https://twitter.com/didoofficial?lang=en"
-          target="_blank"
-          ><img src="../imagenes/twitter.png" alt="Twitter" ; height="40rem"
-        /></a>
-        <a title="Facebook" href="https://www.facebook.com/dido" target="_blank"
-          ><img src="../imagenes/facebook.png" alt="Facebook" ; height="40rem"
-        /></a>
-        <a
-          title="Instagram"
-          href="https://www.instagram.com/dido"
-          target="_blank"
-          ><img
-            src="../imagenes/instagram.png"
-            alt="Instagram"
-            ;
-            height="40rem"
-        /></a>
-      </div>
-      <!--Fin barra multimedia de mi sitio-->
-      <div class="container-video">
-        <!--Comienzo contenido principal de mi sitio-->
-        <div>
-          <iframe
-            class="video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/t7YtnlzZXbs"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <p class="video-text">
-            Dido's debut single 'Here with Me' performed at the BBC's Maida Vale
-            Studios in London.
-          </p>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/E2GHedLIl3Y"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <p class="video-text">Baloise Sessions - Life for rent</p>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/G-xpGBUSt98"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <p class="video-text">
-            Dido Still on my mind Tour 2019 Buenos Aires, Argentina, 31 octubre
-            2019 Hurricanes
-          </p>
-        </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/ZmnLou3lSAk"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <p class="video-text">
-            Dido and Youssou N'Dour performing at Live 8 in London's Hyde Park
-            on the 2nd July, 2005.
-          </p>
+      <!-- Start Video -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/t7YtnlzZXbs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="col-6 text-center">
+              <p class="text-warning bg-dark">
+                Dido's debut single 'Here with Me' performed at the BBC's Maida
+                Vale Studios in London.
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/E2GHedLIl3Y"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="col-6 text-center">
+              <p class="text-warning bg-dark">Baloise Sessions - Life for rent</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/G-xpGBUSt98"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="col-6 text-center">
+              <p class="text-warning bg-dark">Dido Still on my mind Tour 2019 Buenos Aires, Argentina, 31 octubre
+                2019 Hurricanes</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ZmnLou3lSAk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="col-6 text-center">
+              <p class="text-warning bg-dark">Dido and Youssou N'Dour performing at Live 8 in London's Hyde Park
+                on the 2nd July, 2005.</p>
+            </div>
+          </div>  
         </div>
       </div>
-      <!--Fin contenido principal de mi sitio-->
-      <div class="footer">
-        <!-- Comienzo del pie de pagina -->
-        <footer>
-          <p class="footer">
-            <em> All rights Reserved </em> <strong> DIDO 2021</strong>
-          </p>
-        </footer>
-        <!-- Fin del pie de pagina -->
+      <!-- End Video -->
+
+    <!-- Start Footer -->
+    <div class="container">
+      <div class="card d-flex">
+        <div class="card-footer text-center">
+          <em> All rights Reserved </em> <strong> DIDO 2021</strong>
+        </div>
       </div>
     </div>
+    <!-- End Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
