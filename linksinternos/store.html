@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -12,14 +11,15 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css" />
-
     <title>.:Dido Official Website:.</title>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <h1 class="text-warning">Store</h1>
+        <h1>Store</h1>
+        <!--  Start NavBar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-dark">
           <div class="container-fluid">
             <button
@@ -35,6 +35,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!--  Start NavBar Elements -->
                 <li class="nav-item">
                   <a
                     class="nav-link active bg-danger text-white"
@@ -43,20 +44,35 @@
                     >HOME</a
                   >
                 </li>
-                <li class="nav-item bg-danger">
-                  <a class="nav-link text-white" href="./biography.html"
+                <li class="nav-item">
+                  <a
+                    class="nav-link bg-danger text-white"
+                    href="./biography.html"
                     >BIOGRAPHY</a
                   >
                 </li>
-                <li class="nav-item bg-danger">
-                  <a class="nav-link text-white" href="./video.html">VIDEO</a>
+                <li class="nav-item">
+                  <a
+                    class="nav-link bg-danger text-white"
+                    href="./video.html"
+                    >VIDEO</a
+                  >
                 </li>
-                <li class="nav-item bg-danger">
-                  <a class="nav-link text-white" href="./store.html">STORE</a>
+                <li class="nav-item">
+                  <a
+                    class="nav-link bg-danger text-white"
+                    href="./store.html"
+                    >STORE</a
+                  >
                 </li>
-                <li class="nav-item bg-danger">
-                  <a class="nav-link text-white" href="./signup.html">SIGNUP</a>
+                <li class="nav-item">
+                  <a
+                    class="nav-link bg-danger text-white"
+                    href="./signup.html"
+                    >SIGNUP</a
+                  >
                 </li>
+                <!--  Start Music Dropdowm Menu -->
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle bg-danger text-white"
@@ -97,6 +113,8 @@
                     </li>
                   </ul>
                 </li>
+                <!--  End Music Dropdowm Menu -->
+                <!--  Start Social Dropdowm Menu -->
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle bg-danger text-white"
@@ -137,8 +155,9 @@
                     </li>
                   </ul>
                 </li>
+                <!--  End Social Dropdowm Menu -->
                 <li>
-                  <!-- Button trigger modal -->
+                  <!-- Start Button trigger modal -->
                   <button
                     type="button"
                     class="btn btn-primary"
@@ -148,7 +167,8 @@
                     <span class="badge bg-danger">1</span>
                     Notice!
                   </button>
-                  <!-- Start Modal -->
+                  <!-- End Button trigger modal -->
+                  <!--  Start Modal -->
                   <div
                     class="modal fade"
                     id="exampleModal"
@@ -190,250 +210,204 @@
                   <!-- End Modal -->
                 </li>
               </ul>
+              <!--  End NavBar Elements -->
             </div>
           </div>
         </nav>
+        <!--  End NavBar -->
       </div>
       <!-- Start Disc Store -->
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h3 class="text-white">No Angel</h3>
-            <img
-              src="../imagenes/no_angel.jpg"
-              alt="No-Angel-Dido"
-              class="card__img"
-            />
-            <ol class="text-white">
-              <li>Here with Me</li>
-              <li>Hunter</li>
-              <li>Don't Think of Me</li>
-              <li>My Lover's Gone</li>
-              <li>All You Want</li>
-              <li>Thank You</li>
-              <li>Honestly OK</li>
-              <li>Slide</li>
-              <li>Isobel</li>
-              <li>I'm No Angel</li>
-              <li>My Life</li>
-              <li>Take My Hand (bonus track)</li>
-            </ol>
-            <a
-              href="https://www.amazon.com/No-Angel-Dido/dp/B00000IAU3/ref=sr_1_4?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type%3A1294428011&rnid=1294426011&s=music&sr=1-4"
-              target="_blank"
-              class="boton boton--absolute"
-            >
-              <span class="boton__texto">BUY IT! </span>
-            </a>
-          </div>
-          <div class="col">
-            <h3 class="text-white">Life for rent</h3>
-            <img
-              src="../imagenes/life_for_rent.jpg"
-              alt="Life-Rent-Dido"
-              class="card__img"
-            />
-            <ol class="text-white">
-              <li>White Flag</li>
-              <li>Stoned</li>
-              <li>Life for Rent</li>
-              <li>Mary's in India</li>
-              <li>See You When You're 40</li>
-              <li>Don't Leave Home (Dido, Rollo, Mike Hedges)</li>
-              <li>Who Makes You Feel</li>
-              <li>Sand in My Shoes</li>
-              <li>Do You Have a Little Time</li>
-              <li>This Land Is Mine</li>
-              <li>See the Sun (Dido, Rollo, Hedges)</li>
-              <li>Closer (hidden track)</li>
-            </ol>
-            <a
-              href="https://www.amazon.com/Life-Rent-Dido/dp/B000089RVR/ref=sr_1_6?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type%3A1294428011&rnid=1294426011&s=music&sr=1-6"
-              target="_blank"
-              class="boton boton--absolute"
-            >
-              <span class="boton__texto">BUY IT! </span>
-            </a>
-          </div>
-          <div class="col">
-            <h3 class="text-white">Safe trip home</h3>
-            <img
-              src="../imagenes/safe_trip_home.jpg"
-              alt="Safe-Trip-Home-Dido"
-              class="card__img"
-            />
-            <ol class="text-white">
-              <li>Don't Believe in Love</li>
-              <li>Quiet Times</li>
-              <li>Never Want to Say It's Love</li>
-              <li>Grafton Street</li>
-              <li>It Comes and It Goes</li>
-              <li>Look No Further</li>
-              <li>Us 2 Little Gods</li>
-              <li>The Day Before the Day</li>
-              <li>Let's Do the Things We Normally Do</li>
-              <li>Burnin Love</li>
-              <li>Northern Skies</li>
-            </ol>
-            <a
-              href="https://www.amazon.com/Safe-Trip-Home-Dido/dp/B001EO2UKO/ref=sr_1_5?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type:1294428011&rnid=1294426011&s=music&sr=1-5"
-              target="_blank"
-              class="boton boton--absolute"
-            >
-              <span class="boton__texto">BUY IT! </span>
-            </a>
-          </div>
-          <div class="col">
-            <h3 class="text-white">Girl wh go away</h3>
-            <img
-              src="../imagenes/girl_who_go_away.jpg"
-              alt="Girl-Who-Got-Away-Dido"
-              class="card__img"
-            />
-            <ol class="text-white">
-              <li>No Freedom</li>
-              <li>Girl Who Got Away</li>
-              <li>Let Us Move On</li>
-              <li>Blackbird</li>
-              <li>End of Night</li>
-              <li>Sitting on the Roof of the World</li>
-              <li>Love to Blame</li>
-              <li>Go Dreaming</li>
-              <li>Happy New Year</li>
-              <li>Loveless Hearts</li>
-              <li>Day Before We Went to War</li>
-            </ol>
-            <a
-              href="https://www.amazon.com/Girl-Who-Got-Away-Dido/dp/B00B9LNJ9I/ref=sr_1_1?dchild=1&keywords=dido+Girl+Who+Got+Away&qid=1625368196&s=music&sr=1-1"
-              target="_blank"
-              class="boton boton--absolute"
-            >
-              <span class="boton__texto">BUY IT! </span>
-            </a>
-          </div>
-          <div class="col">
-            <h3 class="text-white">Still on my mind</h3>
-            <img
-              src="../imagenes/still_on_my_mind.jpg"
-              alt="Still-On-My-Mind-Dido"
-              class="card__img"
-            />
-            <ol class="text-white">
-              <li>Hurricanes</li>
-              <li>Give You Up</li>
-              <li>Hell After This</li>
-              <li>You Don't Need a God</li>
-              <li>Take You Home</li>
-              <li>Some Kind of Love</li>
-              <li>Still on My Mind</li>
-              <li>Mad Love</li>
-              <li>Walking By</li>
-              <li>Friends</li>
-              <li>Chances</li>
-              <li>Have to Stay</li>
-            </ol>
-            <a
-              href="https://www.amazon.com/Still-My-Mind-Deluxe-Dido/dp/B07Y9B1MTT/ref=sr_1_2?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type%3A1294428011&rnid=1294426011&s=music&sr=1-2"
-              target="_blank"
-              class="boton boton--absolute"
-            >
-              <span class="boton__texto">BUY IT! </span>
-            </a>
+      <div data-aos="flip-left">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <section class="containerc">
+                <!-- Bloque 1 -->
+                <div class="card">
+                  <img class="card__img"
+                      src="../imagenes/no_angel.jpg"
+                      alt="No-Angel-Dido"/>
+                    <div>
+                      <h3 class="card__title">No Angel</h3>
+                      <ol class="card__text">
+                        <li>Here with Me</li>
+                        <li>Hunter</li>
+                        <li>Don't Think of Me</li>
+                        <li>My Lover's Gone</li>
+                        <li>All You Want</li>
+                        <li>Thank You</li>
+                        <li>Honestly OK</li>
+                        <li>Slide</li>
+                        <li>Isobel</li>
+                        <li>I'm No Angel</li>
+                        <li>My Life</li>
+                        <li>Take My Hand (bonus track)</li>
+                      </ol>
+                      <a
+                        href="https://www.amazon.com/No-Angel-Dido/dp/B00000IAU3/ref=sr_1_4?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type%3A1294428011&rnid=1294426011&s=music&sr=1-4"
+                        target="_blank"
+                        class="boton boton--absolute"
+                      >
+                        <span class="boton__text">BUY IT! </span>
+                      </a>
+                    </div>
+              </section>
+            </div>
+            <div class="col">
+              <section class="containerc">
+                <!-- Bloque 2 -->
+                <div class="card">
+                  <img class="card__img"
+                      src="../imagenes/life_for_rent.jpg"
+                      alt="Life-Rent-Dido"/>
+                    <div>
+                      <h3 class="card__title">Life for rent</h3>
+                      <ol class="card__text">
+                        <li>White Flag</li>
+                        <li>Stoned</li>
+                        <li>Life for Rent</li>
+                        <li>Mary's in India</li>
+                        <li>See You When You're 40</li>
+                        <li>Don't Leave Home (Dido, Rollo, Mike Hedges)</li>
+                        <li>Who Makes You Feel</li>
+                        <li>Sand in My Shoes</li>
+                        <li>Do You Have a Little Time</li>
+                        <li>This Land Is Mine</li>
+                        <li>See the Sun (Dido, Rollo, Hedges)</li>
+                        <li>Closer (hidden track)</li>
+                      </ol>
+                      <a
+                        href="https://www.amazon.com/Life-Rent-Dido/dp/B000089RVR/ref=sr_1_6?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type%3A1294428011&rnid=1294426011&s=music&sr=1-6"
+                        target="_blank"
+                        class="boton boton--absolute"
+                      >
+                        <span class="boton__text">BUY IT! </span>
+                      </a>
+                    </div>
+              </section>
+            </div>
+            <div class="col">
+              <section class="containerc">
+                <!-- Bloque 3 -->
+                <div class="card">
+                  <img class="card__img"
+                      src="../imagenes/safe_trip_home.jpg"
+                      alt="Safe-Trip-Home-Dido"/>
+                    <div>
+                      <h3 class="card__title">Safe trip home</h3>
+                      <ol class="card__text">
+                        <li>Don't Believe in Love</li>
+                        <li>Quiet Times</li>
+                        <li>Never Want to Say It's Love</li>
+                        <li>Grafton Street</li>
+                        <li>It Comes and It Goes</li>
+                        <li>Look No Further</li>
+                        <li>Us 2 Little Gods</li>
+                        <li>The Day Before the Day</li>
+                        <li>Let's Do the Things We Normally Do</li>
+                        <li>Burnin Love</li>
+                        <li>Northern Skies</li>
+                      </ol>
+                      <a
+                        href="https://www.amazon.com/Safe-Trip-Home-Dido/dp/B001EO2UKO/ref=sr_1_5?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type:1294428011&rnid=1294426011&s=music&sr=1-5"
+                        target="_blank"
+                        class="boton boton--absolute"
+                      >
+                        <span class="boton__text">BUY IT! </span>
+                      </a>
+                    </div>
+              </section>
+            </div>
+            <div class="col">
+              <section class="containerc">
+                <!-- Bloque 4 -->
+                <div class="card">
+                  <img class="card__img"
+                      src="../imagenes/girl_who_go_away.jpg"
+                      alt="Girl-Who-Got-Away-Dido"/>
+                    <div>
+                      <h3 class="card__title">Girl who go away</h3>
+                      <ol class="card__text">
+                        <li>No Freedom</li>
+                      <li>Girl Who Got Away</li>
+                      <li>Let Us Move On</li>
+                      <li>Blackbird</li>
+                      <li>End of Night</li>
+                      <li>Sitting on the Roof of the World</li>
+                      <li>Love to Blame</li>
+                      <li>Go Dreaming</li>
+                      <li>Happy New Year</li>
+                      <li>Loveless Hearts</li>
+                      <li>Day Before We Went to War</li>
+                      </ol>
+                      <a
+                        href="https://www.amazon.com/Girl-Who-Got-Away-Dido/dp/B00B9LNJ9I/ref=sr_1_1?dchild=1&keywords=dido+Girl+Who+Got+Away&qid=1625368196&s=music&sr=1-1"
+                        target="_blank"
+                        class="boton boton--absolute"
+                      >
+                        <span class="boton__text">BUY IT! </span>
+                      </a>
+                    </div>
+              </section>
+            </div>
+            <div class="col">
+              <section class="containerc">
+                <!-- Bloque 5 -->
+                <div class="card">
+                  <img class="card__img"
+                      src="../imagenes/still_on_my_mind.jpg"
+                      alt="Still-On-My-Mind-Dido"/>
+                    <div>
+                      <h3 class="card__title">Still on my mind</h3>
+                      <ol class="card__text">
+                        <li>No Freedom</li>
+                        <li>Hurricanes</li>
+                        <li>Give You Up</li>
+                        <li>Hell After This</li>
+                        <li>You Don't Need a God</li>
+                        <li>Take You Home</li>
+                        <li>Some Kind of Love</li>
+                        <li>Still on My Mind</li>
+                        <li>Mad Love</li>
+                        <li>Walking By</li>
+                        <li>Friends</li>
+                        <li>Chances</li>
+                        <li>Have to Stay</li>
+                      </ol>
+                      <a
+                        href="https://www.amazon.com/Still-My-Mind-Deluxe-Dido/dp/B07Y9B1MTT/ref=sr_1_2?dchild=1&keywords=dido&qid=1625367212&refinements=p_n_condition-type%3A1294428011&rnid=1294426011&s=music&sr=1-2"
+                        target="_blank"
+                        class="boton boton--absolute"
+                      >
+                        <span class="boton__text">BUY IT! </span>
+                      </a>
+                    </div>
+              </section>
+            </div>
           </div>
         </div>
       </div>
+      
+      
+
       <!-- End Disc Store -->
-      <!-- Start Table -->
-      <div class="table">
-        <table
-          width="600rem"
-          border="2"
-          cellpadding="2"
-          cellspacing="2"
-          class="table"
-        >
-          <tr>
-            <th>Disc</th>
-            <th>First single</th>
-            <th>List of songs</th>
-          </tr>
-          <tr>
-            <td>Still on my Still-My-Mind-Deluxe-Dido</td>
-            <td>Give You Up</td>
-            <td>
-              <ol>
-                <li>Hurricanes</li>
-                <li>Give You Up</li>
-                <li>Hell After This</li>
-                <li>You Don't Need a God</li>
-                <li>Take You Home</li>
-                <li>Some Kind of Love</li>
-                <li>Still on My Mind</li>
-                <li>Mad Love</li>
-                <li>Walking By</li>
-                <li>Friends</li>
-                <li>Chances</li>
-                <li>Have to Stay</li>
-              </ol>
-            </td>
-          </tr>
-          <tr>
-            <td>Girl Who Got Away</td>
-            <td>Let Us Move On</td>
-            <td>
-              <ol>
-                <li>No Freedom</li>
-                <li>Girl Who Got Away</li>
-                <li>Let Us Move On</li>
-                <li>Blackbird</li>
-                <li>End of Night</li>
-                <li>Sitting on the Roof of the World</li>
-                <li>Love to Blame</li>
-                <li>Go Dreaming</li>
-                <li>Happy New Year</li>
-                <li>Loveless Hearts</li>
-                <li>Day Before We Went to War</li>
-              </ol>
-            </td>
-          </tr>
-          <tr>
-            <td>Safe Trip Home</td>
-            <td>Don't Believe in Love</td>
-            <td>
-              <ol>
-                <li>"Don't Believe in Love</li>
-                <li>Quiet Times</li>
-                <li>Never Want to Say It's Love</li>
-                <li>"Grafton Street</li>
-                <li>It Comes and It Goes</li>
-                <li>Look No Further</li>
-                <li>"Us 2 Little Gods</li>
-                <li>The Day Before the Day</li>
-                <li>Let's Do the Things We Normally Do</li>
-                <li>Burnin Love</li>
-                <li>Northern Skies</li>
-              </ol>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <!-- End Table -->
-    </div>
+    
     <!-- Start Footer -->
     <div class="container">
-      <div class="card d-flex">
-        <div class="card-footer text-center">
-          <em> All rights Reserved </em> <strong> DIDO 2021</strong>
-        </div>
+      <div class="footer-text bg-light text-center">
+        <em> All rights Reserved </em> <strong> DIDO 2021</strong>
       </div>
     </div>
     <!-- End Footer -->
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

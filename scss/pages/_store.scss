@@ -1,0 +1,57 @@
+/*Store*/
+.boton__text {
+  height: 50px;
+  padding: 20px;
+  background-color: $colour-septenary;
+  color: $colour-tertiary;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 1em;
+  transition: all 1s ease;
+
+  &:hover {
+    color: $colour-primary;
+    background: $colour-secondary;
+  }
+
+  &:hover {
+    color: $colour-tertiary;
+    text-decoration: $colour-tertiary;
+  }
+}
+
+.containerc {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: $colour-quaternary;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  transition: all 1s ease;
+}
+
+.card:hover {
+  color: $colour-primary;
+  background: $colour-senary;
+}
+.card:hover {
+  color: $colour-tertiary;
+  text-decoration: $colour-tertiary;
+}
+
+.card__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.card__title {
+  font-size: $font-mid;
+  margin-bottom: 20px;
+}

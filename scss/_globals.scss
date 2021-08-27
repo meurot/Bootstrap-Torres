@@ -1,0 +1,23 @@
+/*Globals*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: $colour-primary;
+}
+
+.container {
+  background: $colour-primary;
+}
+
+h1 {
+  color: $colour-quaternary;
+  font-size: $font-big;
+}
+
+h2 {
+  color: $colour-tertiary;
+  font-size: $font-mid;
+}

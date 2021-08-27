@@ -1,0 +1,23 @@
+/*Biography*/
+.biotext {
+  display: flex;
+  color: $colour-tertiary;
+  font-family: $font-family;
+  font-size: $font-normal;
+  line-height: 1.4;
+  text-align: center;
+  border: solid 0.1rem $colour-tertiary;
+  transition: all 1s ease;
+  border-radius: 1rem;
+  gap: 1rem;
+
+  &:hover {
+    color: $colour-primary;
+    background: $colour-secondary;
+  }
+
+  &:hover {
+    color: $colour-tertiary;
+    text-decoration: $colour-tertiary;
+  }
+}
