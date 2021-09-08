@@ -47,22 +47,6 @@ h2 {
     text-decoration: #f7eaea; }
 
 /*Store*/
-.boton__text {
-  height: 50px;
-  padding: 20px;
-  background-color: #0d6efd;
-  color: #f7eaea;
-  display: inline-block;
-  text-decoration: none;
-  border-radius: 1em;
-  transition: all 1s ease; }
-  .boton__text:hover {
-    color: #212529;
-    background: #d63c3c; }
-  .boton__text:hover {
-    color: #f7eaea;
-    text-decoration: #f7eaea; }
-
 .containerc {
   max-width: 500px;
   margin: 0 auto; }
@@ -76,23 +60,34 @@ h2 {
   position: relative;
   margin-bottom: 50px;
   transition: all 1s ease; }
-
-.card:hover {
-  color: #212529;
-  background: #dcd93559; }
-
-.card:hover {
-  color: #f7eaea;
-  text-decoration: #f7eaea; }
-
-.card__img {
-  width: 200px;
-  height: 200px;
-  border-radius: 15px; }
-
-.card__title {
-  font-size: 1.5em;
-  margin-bottom: 20px; }
+  .card__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px; }
+  .card:hover {
+    color: #212529;
+    background: #dcd93559; }
+  .card:hover {
+    color: #f7eaea;
+    text-decoration: #f7eaea; }
+  .card__boton {
+    height: 50px;
+    padding: 20px;
+    background-color: #0d6efd;
+    color: #f7eaea;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 1em;
+    transition: all 1s ease; }
+    .card__boton:hover {
+      color: #212529;
+      background: #d63c3c; }
+    .card__boton:hover {
+      color: #f7eaea;
+      text-decoration: #f7eaea; }
+  .card__info__title {
+    font-size: 1.5em;
+    margin-bottom: 20px; }
 
 em {
   font-size: 1.5em;
